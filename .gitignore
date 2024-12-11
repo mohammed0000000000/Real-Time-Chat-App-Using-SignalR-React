@@ -1,0 +1,20 @@
+# Node.js (React)
+frontend/node_modules/
+frontend/build/
+
+# .NET
+backend/bin/
+backend/obj/
+backend/appsettings.Development.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates

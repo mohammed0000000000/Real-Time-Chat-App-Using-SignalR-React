@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ynMSTTmYm+w=",
+  "dgSpecHash": "7JrFqn9U4HY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\source\\repos\\ChatApp\\ChatApp.csproj",
+  "projectFilePath": "C:\\Users\\HP\\source\\repos\\ChatRepo\\Server\\ChatApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\8.0.11\\microsoft.aspnetcore.connections.abstractions.8.0.11.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\8.0.11\\microsoft.aspnetcore.signalr.common.8.0.11.nupkg.sha512",

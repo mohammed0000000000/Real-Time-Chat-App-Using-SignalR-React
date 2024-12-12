@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\ChatApp\\",
+  "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\ChatRepo\\Server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{03CAA16D-A4F0-4B59-B86C-85361170D008}|ChatApp.csproj|c:\\users\\hp\\source\\repos\\chatapp\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03CAA16D-A4F0-4B59-B86C-85361170D008}|ChatApp.csproj|solutionrelative:hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03CAA16D-A4F0-4B59-B86C-85361170D008}|ChatApp.csproj|c:\\users\\hp\\source\\repos\\chatapp\\dataservices\\shareddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03CAA16D-A4F0-4B59-B86C-85361170D008}|ChatApp.csproj|solutionrelative:dataservices\\shareddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03CAA16D-A4F0-4B59-B86C-85361170D008}|ChatApp.csproj|c:\\users\\hp\\source\\repos\\chatapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{03CAA16D-A4F0-4B59-B86C-85361170D008}|ChatApp.csproj|c:\\users\\hp\\source\\repos\\chatrepo\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03CAA16D-A4F0-4B59-B86C-85361170D008}|ChatApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03CAA16D-A4F0-4B59-B86C-85361170D008}|ChatApp.csproj|c:\\users\\hp\\source\\repos\\chatapp\\models\\userconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{03CAA16D-A4F0-4B59-B86C-85361170D008}|ChatApp.csproj|c:\\users\\hp\\source\\repos\\chatrepo\\server\\models\\userconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03CAA16D-A4F0-4B59-B86C-85361170D008}|ChatApp.csproj|solutionrelative:models\\userconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03CAA16D-A4F0-4B59-B86C-85361170D008}|ChatApp.csproj|c:\\users\\hp\\source\\repos\\chatrepo\\server\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03CAA16D-A4F0-4B59-B86C-85361170D008}|ChatApp.csproj|solutionrelative:hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03CAA16D-A4F0-4B59-B86C-85361170D008}|ChatApp.csproj|c:\\users\\hp\\source\\repos\\chatrepo\\server\\dataservices\\shareddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03CAA16D-A4F0-4B59-B86C-85361170D008}|ChatApp.csproj|solutionrelative:dataservices\\shareddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 295,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,50 +46,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SharedDb.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ChatApp\\DataServices\\SharedDb.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ChatRepo\\Server\\DataServices\\SharedDb.cs",
               "RelativeDocumentMoniker": "DataServices\\SharedDb.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\ChatApp\\DataServices\\SharedDb.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ChatRepo\\Server\\DataServices\\SharedDb.cs",
               "RelativeToolTip": "DataServices\\SharedDb.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T12:39:25.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T12:39:25.966Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ChatApp\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ChatRepo\\Server\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\ChatApp\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ChatRepo\\Server\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAIA2wBsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAMBEwA0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T12:30:48.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ChatHub.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ChatApp\\Hubs\\ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ChatRepo\\Server\\Hubs\\ChatHub.cs",
               "RelativeDocumentMoniker": "Hubs\\ChatHub.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\ChatApp\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ChatRepo\\Server\\Hubs\\ChatHub.cs",
               "RelativeToolTip": "Hubs\\ChatHub.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAIAywBwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAIA/wBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T12:26:15.913Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "UserConnection.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ChatApp\\Models\\UserConnection.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\ChatRepo\\Server\\Models\\UserConnection.cs",
               "RelativeDocumentMoniker": "Models\\UserConnection.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\ChatApp\\Models\\UserConnection.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\ChatRepo\\Server\\Models\\UserConnection.cs",
               "RelativeToolTip": "Models\\UserConnection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

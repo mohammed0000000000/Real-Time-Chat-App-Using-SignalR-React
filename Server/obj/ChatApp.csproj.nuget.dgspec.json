@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\source\\repos\\ChatApp\\ChatApp.csproj": {}
+    "C:\\Users\\HP\\source\\repos\\ChatRepo\\Server\\ChatApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\source\\repos\\ChatApp\\ChatApp.csproj": {
+    "C:\\Users\\HP\\source\\repos\\ChatRepo\\Server\\ChatApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\ChatApp\\ChatApp.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\ChatRepo\\Server\\ChatApp.csproj",
         "projectName": "ChatApp",
-        "projectPath": "C:\\Users\\HP\\source\\repos\\ChatApp\\ChatApp.csproj",
+        "projectPath": "C:\\Users\\HP\\source\\repos\\ChatRepo\\Server\\ChatApp.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\source\\repos\\ChatApp\\obj\\",
+        "outputPath": "C:\\Users\\HP\\source\\repos\\ChatRepo\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

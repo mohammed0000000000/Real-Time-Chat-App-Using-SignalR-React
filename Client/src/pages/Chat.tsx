@@ -1,6 +1,9 @@
+import { selectOnlineUsers } from "../app/features/userSlice";
 import { Grid, GridItem } from "@chakra-ui/react";
-
+import { useSelector } from "react-redux";
 const ChatPage = () => {
+  const onlineUsers = useSelector(selectOnlineUsers);
+  console.log(onlineUsers);
   return (
     <center>
       <Grid
@@ -16,6 +19,7 @@ const ChatPage = () => {
         </GridItem>
         <GridItem colSpan={1} rowSpan={3} background={"red"}>
           <h3>Online User</h3>
+          <h4>{onlineUsers.length}</h4>
         </GridItem>
         <GridItem colSpan={4} rowSpan={3} background={"green"}>
           <h3>chat</h3>

@@ -7,8 +7,15 @@ import {
   FormLabel,
 } from "@chakra-ui/form-control";
 import { ChangeEvent, FormEvent, useState } from "react";
-
+import { AppDispatch } from "@/app/store";
+import { useDispatch } from "react-redux";
+import { addUser } from "@/app/features/userSlice";
+import { useNavigate } from "react-router-dom";
 const JoinCard = () => {
+  const dispatch = useDispatch<AppDispatch>();
+  const navigate = useNavigate(); // useNavigate hook for navigation
+
+  // * State
   const [data, setData] = useState<{ name: string; chatRoom: string }>({
     name: "",
     chatRoom: "",
@@ -17,6 +24,8 @@ const JoinCard = () => {
     name: "",
     chatRoom: "",
   });
+
+  // * Handlers
   const onChangeHandler = (e: ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setData({ ...data, [name]: value });
@@ -60,10 +69,12 @@ const JoinCard = () => {
     e.preventDefault();
     if (validateInput()) {
       // some logic
+      dispatch(addUser(data.name));
       setData({
         name: "",
         chatRoom: "",
       });
+      navigate("/room");
     }
   };
   return (

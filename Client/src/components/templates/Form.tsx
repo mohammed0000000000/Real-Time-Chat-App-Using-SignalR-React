@@ -11,6 +11,7 @@ import { AppDispatch } from "@/app/store";
 import { useDispatch } from "react-redux";
 import { addUser } from "@/app/features/userSlice";
 import { useNavigate } from "react-router-dom";
+import cookiesServices from "@/services/cookiesServices";
 const JoinCard = () => {
   const dispatch = useDispatch<AppDispatch>();
   const navigate = useNavigate(); // useNavigate hook for navigation
@@ -34,48 +35,52 @@ const JoinCard = () => {
     }
   };
   const validateInput = (): boolean => {
-    let formValid = true;
     if (data.name.length === 0) {
-      formValid = false;
       setErrors((prevErrors) => ({
         ...prevErrors,
         name: "* Name is required",
       }));
+      setData((prevData) => ({ ...prevData, chatRoom: "" }));
+      return false;
     }
     if (data.name.length < 2) {
-      formValid = false;
       setErrors((prevErrors) => ({
         ...prevErrors,
         name: "* Name Must Be At least 3 characters",
       }));
+      setData((prevData) => ({ ...prevData, chatRoom: "" }));
+      return false;
     }
     if (data.chatRoom.length === 0) {
-      formValid = false;
       setErrors((prevErrors) => ({
         ...prevErrors,
         chatRoom: "* Chat Room is required",
       }));
+      return false;
     }
     if (data.chatRoom.length < 2) {
-      formValid = false;
       setErrors((prevErrors) => ({
         ...prevErrors,
         chatRoom: "* ChatRoom Must Be At least 3 characters",
       }));
+      return false;
     }
-    return formValid;
+    return true;
   };
   const onSubmitHandler = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (validateInput()) {
-      // some logic
-      dispatch(addUser(data.name));
-      setData({
-        name: "",
-        chatRoom: "",
-      });
-      navigate("/room");
-    }
+    if (!validateInput()) return;
+    // if
+
+    // some logic
+    dispatch(addUser(data.name));
+    setData({
+      name: "",
+      chatRoom: "",
+    });
+    cookiesServices.setCookie("user", data.name);
+    cookiesServices.setCookie("room", data.chatRoom);
+    navigate("/room");
   };
   return (
     <Flex
